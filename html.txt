@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TDS Comparison App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/tesseract.js@2/dist/tesseract.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <h1>TDS Comparison App (Auto Material Detection)</h1>
+
+    <section class="card">
+        <h2>Step 1 — Upload Machine Screen Image</h2>
+        <p>Rename image according to material code (example: <b>gp5008</b>, <b>m90</b>, <b>700x01</b> ).</p>
+        <input type="file" id="imageInput" accept="image/*">
+    </section>
+
+    <section class="card">
+        <h2>Loaded TDS JSON</h2>
+        <pre id="tdsPreview"></pre>
+    </section>
+
+    <section class="card">
+        <h2>Step 2 — Run OCR</h2>
+        <button id="ocrBtn">Run OCR</button>
+        <pre id="ocrPreview"></pre>
+    </section>
+
+    <section class="card">
+        <h2>Step 3 — Compare</h2>
+        <button id="compareBtn">Compare</button>
+        <h3 id="finalResult"></h3>
+        <div id="results"></div>
+    </section>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "material": "PC Lumiplas LD7550NP Transparent",
+  "parameters": {
+    "Melt Temperature": { "min": 270, "max": 310, "unit": "°C" },
+    "Mold Temperature": { "min": 80, "max": 120, "unit": "°C" },
+    "Drying Temperature": { "min": 110, "max": 125, "unit": "°C" },
+    "Drying Time": { "min": 3, "max": 5, "unit": "hour" },
+    "Injection Pressure": { "min": 90, "max": 150, "unit": "MPa" },
+    "Holding Pressure": { "min": 50, "max": 110, "unit": "MPa" },
+    "Injection Speed": { "min": 20, "max": 90, "unit": "mm/s" },
+    "Cooling Time": { "min": 12, "max": 25, "unit": "s" }
+  }
+}

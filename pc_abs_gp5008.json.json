@@ -1,0 +1,12 @@
+{
+  "material": "PC/ABS LUPOY GP5008",
+  "parameters": {
+    "Melt Temperature": { "min": 250, "max": 270, "unit": "°C" },
+    "Mold Temperature": { "min": 60, "max": 85, "unit": "°C" },
+    "Drying Temperature": { "min": 80, "max": 100, "unit": "°C" },
+    "Drying Time": { "min": 2, "max": 4, "unit": "hour" },
+    "Injection Pressure": { "min": 70, "max": 120, "unit": "MPa" },
+    "Holding Pressure": { "min": 40, "max": 80, "unit": "MPa" },
+    "Cooling Time": { "min": 10, "max": 20, "unit": "s" }
+  }
+}

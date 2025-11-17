@@ -1,0 +1,13 @@
+{
+  "material": "Panlite G-3430",
+  "parameters": {
+    "Melt Temperature": { "min": 260, "max": 300, "unit": "°C" },
+    "Mold Temperature": { "min": 80, "max": 110, "unit": "°C" },
+    "Drying Temperature": { "min": 110, "max": 120, "unit": "°C" },
+    "Drying Time": { "min": 3, "max": 4, "unit": "hour" },
+    "Injection Pressure": { "min": 80, "max": 130, "unit": "MPa" },
+    "Holding Pressure": { "min": 50, "max": 90, "unit": "MPa" },
+    "Injection Speed": { "min": 20, "max": 80, "unit": "mm/s" },
+    "Cooling Time": { "min": 12, "max": 20, "unit": "s" }
+  }
+}
